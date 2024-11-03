@@ -1,0 +1,8 @@
+preprocess:
+  input: data/raw/data.csv
+  output: data/processed/data.csv
+
+train:
+  data: data/processed/data.csv
+  models: models/model.pkl
+  random_state: 42
